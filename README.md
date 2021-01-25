@@ -18,3 +18,35 @@ Create a react page that loads employess and their jobs onto the page.
     3. submit button
 
 Have fun, and Good luck :D 
+
+first component
+
+
+import React, { Component } from 'react'
+
+export default class EmployeeInfo extends Component {
+    render() {
+        return (
+            <div>
+                <h1>Ismail Khalil</h1>
+                <h3>Web Developer</h3>
+            </div>
+        )
+    }
+}
+
+
+import React, { Component } from 'react'
+
+export default class profile extends Component {
+    render() {
+        return (
+            <div>
+                <img href='google.com' alt='an image for an employee'></img>
+                <title>Civil Engineer</title>
+                <p>work in construction sites</p>
+                <link href='https://www.facebook.com/ismail.thanoon.7'>Facebook account</link>
+            </div>
+        )
+    }
+}
