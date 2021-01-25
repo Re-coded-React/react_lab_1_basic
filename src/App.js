@@ -1,12 +1,12 @@
 import logo from './logo.svg';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
+import Profile from './components/Profile';
+import EmployeeInfo from './components/EmployeeInfo';
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Home />
+      <EmployeeInfo />
+      <Profile />
     </div>
   );
 }
