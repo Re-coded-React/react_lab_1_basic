@@ -5,11 +5,12 @@ export default function EmployeeInfoForm() {
         <div>
             <form action="/">
             <input type="text" placeholder="Name"/>
-            <input type="password" placeholder="Password"/>
-            <input type="email" placeholder="Email"/>
-            <input type="text" placeholder="Address"/>
-            <input type="text" placeholder="Message"/>  
-            <input type="text" placeholder="Phone"/>  
+            <br/>
+            <input type="password" placeholder="Password"/><br/>
+            <input type="email" placeholder="Email"/><br/>
+            <input type="text" placeholder="Address"/><br/>
+            <input type="text" placeholder="Message"/><br/>
+            <input type="text" placeholder="Phone"/><br/>
             <input type="submit" value="Submit" />
 
             </form>
