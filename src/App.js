@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Post from'./components/Post';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
           Learn React Today
 
         </a>
+        <em>      <Post />
+</em>
       </header>
     </div>
   );
